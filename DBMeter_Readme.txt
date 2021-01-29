@@ -22,8 +22,8 @@ DB2
 
     	6. Run Slaves on Clients
 
-                java -cp bin/DBMeter_v1.0.jar:lib/db2jcc4.jar rdbms.DBMeter.Slave conf/example/db2/slave1.properties
-                java -cp bin/DBMeter_v1.0.jar:lib/db2jcc4.jar rdbms.DBMeter.Slave conf/example/db2/slave2.properties
+                java -cp bin/DBMeter_v1.0.jar:lib/db2jcc4.jar rdbms.DBMeter.Slave conf/example/db2/slave001.properties
+                java -cp bin/DBMeter_v1.0.jar:lib/db2jcc4.jar rdbms.DBMeter.Slave conf/example/db2/slave002.properties
 
 	7. Check Data and Result
 
@@ -59,8 +59,8 @@ MySQL
 
 	6. Run Slaves on Clients
 
-		java -cp bin/DBMeter_v1.0.jar:lib/mysql-connector-java-5.1.7-bin.jar rdbms.DBMeter.Slave conf/example/mysql/slave1.properties
-		java -cp bin/DBMeter_v1.0.jar:lib/mysql-connector-java-5.1.7-bin.jar rdbms.DBMeter.Slave conf/example/mysql/slave2.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/mysql-connector-java-5.1.7-bin.jar rdbms.DBMeter.Slave conf/example/mysql/slave001.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/mysql-connector-java-5.1.7-bin.jar rdbms.DBMeter.Slave conf/example/mysql/slave002.properties
 
 	7. Check Data and Result
 
@@ -97,8 +97,8 @@ PostgreSQL
 
 	6. Run Slaves on Clients
 
-		java -cp bin/DBMeter_v1.0.jar:lib/postgresql-42.2.8.jar rdbms.DBMeter.Slave conf/example/postgresql/slave1.properties
-		java -cp bin/DBMeter_v1.0.jar:lib/postgresql-42.2.8.jar rdbms.DBMeter.Slave conf/example/postgresql/slave2.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/postgresql-42.2.8.jar rdbms.DBMeter.Slave conf/example/postgresql/slave001.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/postgresql-42.2.8.jar rdbms.DBMeter.Slave conf/example/postgresql/slave002.properties
 
 	7. Check Data and Result
 
@@ -135,8 +135,8 @@ SQLServer
 
 	7. Run Slaves on Clients
 
-		java -cp bin/DBMeter_v1.0.jar;lib\sqljdbc4.jar rdbms.DBMeter.Slave conf\example\sqlserver\slave1.properties
-		java -cp bin/DBMeter_v1.0.jar;lib\sqljdbc4.jar rdbms.DBMeter.Slave conf\example\sqlserver\slave2.properties
+		java -cp bin/DBMeter_v1.0.jar;lib\sqljdbc4.jar rdbms.DBMeter.Slave conf\example\sqlserver\slave001.properties
+		java -cp bin/DBMeter_v1.0.jar;lib\sqljdbc4.jar rdbms.DBMeter.Slave conf\example\sqlserver\slave002.properties
 
 
 Oracle
@@ -167,8 +167,8 @@ Oracle
 
 	7. Run Slaves on Clients
 
-		java -cp bin/DBMeter_v1.0.jar:lib/ojdbc8.jar:lib/orai18n.jar rdbms.DBMeter.Slave conf/example/oracle/slave1.properties
-		java -cp bin/DBMeter_v1.0.jar:lib/ojdbc8.jar:lib/orai18n.jar rdbms.DBMeter.Slave conf/example/oracle/slave2.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/ojdbc8.jar:lib/orai18n.jar rdbms.DBMeter.Slave conf/example/oracle/slave001.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/ojdbc8.jar:lib/orai18n.jar rdbms.DBMeter.Slave conf/example/oracle/slave002.properties
 
 	8. Check Data and Result
 
@@ -205,8 +205,8 @@ KDB
 
 	7. Run Slaves on Clients
 
-		java -cp bin/DBMeter_v1.0.jar:lib/inspur11-jdbc.jar rdbms.DBMeter.Slave conf/example/kdb/slave1.properties
-		java -cp bin/DBMeter_v1.0.jar:lib/inspur11-jdbc.jar rdbms.DBMeter.Slave conf/example/kdb/slave2.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/inspur11-jdbc.jar rdbms.DBMeter.Slave conf/example/kdb/slave001.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/inspur11-jdbc.jar rdbms.DBMeter.Slave conf/example/kdb/slave002.properties
 
 	8. Check Data and Result
 
@@ -247,8 +247,8 @@ Informix
 
 	7. Run Slaves on Clients
 
-		java -cp bin/DBMeter_v1.0.jar:lib/ifxjdbc.jar rdbms.DBMeter.Slave conf/example/informix/slave1.properties
-		java -cp bin/DBMeter_v1.0.jar:lib/ifxjdbc.jar rdbms.DBMeter.Slave conf/example/informix/slave2.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/ifxjdbc.jar rdbms.DBMeter.Slave conf/example/informix/slave001.properties
+		java -cp bin/DBMeter_v1.0.jar:lib/ifxjdbc.jar rdbms.DBMeter.Slave conf/example/informix/slave002.properties
 
 	8. Check Data and Result
 
